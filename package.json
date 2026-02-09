@@ -1,0 +1,27 @@
+{
+  "name": "wordpress_react",
+  "version": "1.0.0",
+  "description": "WordPress theme built with React and the REST API",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanion/Wordpress_react.git"
+  },
+  "author": "Elvin Damirov",
+  "license": "ISC"
+}

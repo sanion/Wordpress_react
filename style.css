@@ -1,0 +1,32 @@
+/*
+Theme Name: WordPress React Theme
+Theme URI: https://github.com/sanion/Wordpress_react
+Author: Elvin Damirov
+Author URI: https://github.com/sanion
+Description: A WordPress theme powered by React and the WordPress REST API. Renders the front-end with React while WordPress handles content and the API.
+Version: 1.0.0
+License: ISC
+License URI: https://opensource.org/licenses/ISC
+Text Domain: wordpress-react
+*/
+
+/* Base styles – React app handles most styling */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Loading state before React mounts */
+.app-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 1.25rem;
+  color: #666;
+}
